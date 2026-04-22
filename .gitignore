@@ -1,0 +1,110 @@
+# Compiled object files
+*.o
+*.obj
+*.out
+
+# Executable files
+*.exe
+*.a
+*.so
+*.dylib
+*.dll
+
+# Debug files
+*.dSYM/
+*.su
+*.gch
+*.pch
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.sublime-workspace
+*.sublime-project
+.DS_Store
+
+# VS Code settings
+*.code-workspace
+
+# Dev C++ files
+*.dev
+
+# Code Runner temp files
+tempCodeRunnerFile.cpp
+tempCodeRunnerFile.exe
+tempCodeRunnerFile.o
+
+# Input/Output files
+*.txt
+input.txt
+output.txt
+*.in
+*.out
+
+# Build directories
+build/
+bin/
+dist/
+
+# Backup files
+*.bak
+*.backup
+*~
+
+# CMake
+CMakeFiles/
+cmake_install.cmake
+CMakeCache.txt
+Makefile
+
+# Ninja
+.ninja_deps
+.ninja_log
+
+# Test output
+test_output/
+*.log
+
+# System files
+Thumbs.db
+.DS_Store
+
+# Temporary compilation artifacts
+*.gcno
+*.gcda
+
+# Python files (if used with scripts)
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Node modules (if any)
+node_modules/
+
+# Package managers
+*.lock
+
+# Visual Studio files
+.vs/
+*.sln
+*.vcxproj*
+
+# Clion
+.cmake/
+
+# GDB files
+.gdbinit
+
+# Clang
+.clang-format
+
+# OS specific
+.AppleDouble
+.LSOverride
+._*
+
+# Linux temporary files
+.~*
