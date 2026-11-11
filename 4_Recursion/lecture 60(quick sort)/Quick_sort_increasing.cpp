@@ -28,7 +28,7 @@ void quicksort(int arr[], int start, int end)
     quicksort(arr,start,pivot-1);
 
     //right side
-    quicksort(arr,pivot,end);
+    quicksort(arr,pivot+1,end);
 
 }
 
