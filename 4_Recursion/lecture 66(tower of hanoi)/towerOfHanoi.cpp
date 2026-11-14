@@ -11,6 +11,7 @@ void toh(int n, string sour, string help, string dest, int &move)
   }
 
   toh(n - 1, sour, dest, help, move);
+  move++;
   cout << "move disk " << n << " from rod " << sour << " to rod " << dest << endl;
   toh(n - 1, help, sour, dest, move);
 }
