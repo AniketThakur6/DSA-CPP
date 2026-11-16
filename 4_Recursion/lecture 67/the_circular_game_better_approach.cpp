@@ -2,6 +2,9 @@
 #include <vector>
 using namespace std; // leetcode
 
+// t.c = O(n^2)
+// s.c = O(n)
+
 int winner(vector<bool> &person, int n, int index, int person_left, int k)
 {
 
