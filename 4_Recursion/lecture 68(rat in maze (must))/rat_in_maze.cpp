@@ -51,6 +51,7 @@ vector<string> ratInMaze(vector<vector<int>> &maze)
   vector<int> col = {0, 0, -1, 1};
   string dir = "UDLR"; // direction attacted to row,col value
 
+  // edge case
   if (maze[0][0] == 0 || maze[n - 1][n - 1] == 0)
     return ans;
 
