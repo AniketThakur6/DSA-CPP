@@ -107,6 +107,9 @@ Node *InsertAtPosition(Node *Head, int value, int position)
     return temp;
   }
 
+  if (Head == NULL) // head is null edge case
+    return NULL;
+
   Head->next = InsertAtPosition(Head->next, value, position - 1);
   return Head;
 }
